@@ -173,10 +173,9 @@ body {
 	max-width: 220px;
 }
 .volunteer-photo {
-	float: left;
-	margin-right: 20px;
-	margin-bottom: 10px;
-	min-width: 150px;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
 	max-width: 300px;
 }
 .resident-card  {
@@ -590,7 +589,11 @@ table {
 	-ms-flex: 1 0 300px; 
 	flex: 1 0 300px; /*trying to fix safari ios bug*/
 }
-
+.tight {
+	-webkit-align-self: flex-end;
+	    -ms-flex-item-align: end;
+	        align-self: flex-end;
+}
 
 /*._280{
 	display: -webkit-box;
@@ -758,7 +761,10 @@ table {
 		-webkit-flex-direction: column;
 		    -ms-flex-direction: column;
 		        flex-direction: column;
-		flex:1 0 35%;      /*does this fix weirdness on safari and ios?*/
+		-webkit-box-flex:1;
+		-webkit-flex:1 0 35%;
+		    -ms-flex:1 0 35%;
+		        flex:1 0 35%;      /*does this fix weirdness on safari and ios?*/
 		max-width:600px;   
 		/*max-width:48%;*/
 	}
