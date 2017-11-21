@@ -21,7 +21,7 @@ body {
     min-height:100%; /* fix IE11 */
 	margin:0;
 	background-color: #ded9b5;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Arial' , sans-serif;
 }
 #residents {
 	background-color: #f7f2d4;
