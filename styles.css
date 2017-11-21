@@ -21,15 +21,13 @@ body {
     min-height:100%; /* fix IE11 */
 	margin:0;
 	background-color: #ded9b5;
-	font-family: 'Roboto', arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 #residents {
 	background-color: #f7f2d4;
 }
 /* --- sizings and positional --- */ 
-h1,h2,h3,h4 {
-	font-weight: normal;
-}
+
 .page-wrap {
 	max-width: 1240px;
 	min-width: 320px;
@@ -755,9 +753,6 @@ table {
 
 @media screen and (min-width: 840px) {
 
-	h1,h2,h3,h4 {
-		font-weight: bold;
-		}
 	.section-wrap {
 		max-width: 100%;
 			}
