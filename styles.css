@@ -330,6 +330,15 @@ table, th, td {
 table {
 	background-color:#88ab88;
 }
+.bronze {
+	background-color: #bf712d;
+}
+.silver {
+	background-color: #ede3da;
+}
+.gold {
+	background-color: #d4af37;
+}
 .text-box {
 	background-color:#88ab88;
 }
